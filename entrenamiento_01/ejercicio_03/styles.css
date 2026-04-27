@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.navegador {
+    font-size: 2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navegador_link {
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+
+.navegador_link:hover {
+    text-decoration: none;
+    color: rgb(100, 99, 99);
+
+}
+
+.contenido_principal {
+    width: 80%;
+    margin-top: 15em;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.indice {
+    font-size: 2em;
+    padding: 0em 2em 2.5em 0em;
+}
+
+.receta {
+    width: 100%;
+    background-color: rgb(182, 235, 217);
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.1em solid black;
+
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}

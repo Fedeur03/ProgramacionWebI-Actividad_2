@@ -1,0 +1,120 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegador {
+    width: 100%;
+    height: 10%;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;        
+    left: 0;
+}
+
+.navegador_link {
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+
+.navegador_link:hover {
+    text-decoration: none;
+    color: rgb(100, 99, 99);
+
+}
+
+
+
+section img{
+    width: 15em;
+    justify-content: center;
+}
+
+.item_nav {
+    font-size: 2em;
+    margin: 1em;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    padding: 1.5em;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5em;
+    position: fixed;
+    bottom: 0;        
+    left: 0;
+}
+
+.contenido_formulario{
+    border: 0.1em solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+.ingreso_datos {
+    
+    background-color: rgb(219, 217, 217);
+    padding: 1em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+label {
+    width: 10em;
+    display: inline-block;
+    text-align: left;
+}
+
+input {
+    flex: 1;
+    margin: 0.1em
+}
+
+textarea {
+    flex: 1;
+    margin: 0.1em;
+    height: 5em;
+}
+
+.boton {
+    padding: 0.5em 4em 0.5em 4em;
+    font-size: large;
+    margin: 1em
+
+}
+
+.envio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 217, 217);
+    padding: 0em 2em 1em 2em;
+    
+}
+
+#envio {
+    background-color: rgb(123, 123, 245);
+}
+
+#cancelar {
+    background-color: rgb(223, 88, 88);
+}

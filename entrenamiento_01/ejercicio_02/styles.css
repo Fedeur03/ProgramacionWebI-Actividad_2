@@ -1,0 +1,86 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegador {
+    position: fixed;
+    top: 0;        
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navegador_link {
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+
+.navegador_link:hover {
+    text-decoration: none;
+    color: rgb(100, 99, 99);
+
+}
+
+main {
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+.titulo_receta {
+    text-align: center;
+}
+
+
+.contenido_receta {
+    background-color: rgb(219, 216, 216);
+    padding: 1em;
+    margin: 1em;
+    border: 0.5svh solid  #000;
+    border-radius: 3em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7em;
+}
+
+section img{
+    width: 15em;
+    justify-content: center;
+}
+
+.item_nav {
+    font-size: 2em;
+    margin: 1em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;        
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5em;
+}
+
